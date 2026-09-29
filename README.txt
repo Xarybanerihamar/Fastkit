@@ -1,14 +1,16 @@
-FASTKIT PACKAGING WEBSITE — GITHUB PAGES SAFE VERSION
+FASTKIT PACKAGING WEBSITE — CONTACT UPDATE
 
-Upload these three HTML files directly to the ROOT of your GitHub repository:
-- index.html
-- capabilities.html
-- contact.html
+UPDATED CONTACT INFORMATION:
+Phone: 645-205-1264
+Email: info@fastkitpckg.com
 
-This version has the CSS and JavaScript embedded directly in each page, so there is no assets folder to miss and no stylesheet path issue on GitHub Pages.
+IMPORTANT GITHUB UPLOAD STEPS:
+1. Extract this ZIP on your computer.
+2. In your GitHub repository, replace the existing index.html, capabilities.html, and contact.html with the files from this ZIP.
+3. Upload the PNG image files too if they are not already in the repository root.
+4. Commit the changes.
+5. Wait about 1–3 minutes for GitHub Pages to rebuild, then press Ctrl+F5 on the website.
 
-No phone number or email address is included.
-The contact form currently validates and shows a success confirmation but does not transmit data until an email/form endpoint is connected.
+Do NOT upload only the ZIP file to GitHub Pages. The HTML files must be in the repository root.
 
-
-Updated version includes generated packaging photography in assets/images/. Upload the entire folder contents, including the assets folder, to GitHub Pages.
+The phone and email are visible in the footer on every page, in the homepage/capabilities CTA area, and prominently on the Contact page.
