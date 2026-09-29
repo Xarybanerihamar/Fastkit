@@ -9,3 +9,6 @@ This version has the CSS and JavaScript embedded directly in each page, so there
 
 No phone number or email address is included.
 The contact form currently validates and shows a success confirmation but does not transmit data until an email/form endpoint is connected.
+
+
+Updated version includes generated packaging photography in assets/images/. Upload the entire folder contents, including the assets folder, to GitHub Pages.
