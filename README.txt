@@ -1,16 +1,28 @@
-FASTKIT PACKAGING WEBSITE — CONTACT UPDATE
+FASTKIT PACKAGING — REBUILT WEBSITE
 
-UPDATED CONTACT INFORMATION:
-Phone: 645-205-1264
-Email: info@fastkitpckg.com
+Files to upload directly to the root of your GitHub repository:
+- index.html
+- services.html
+- contact.html
+- hero-packaging.png
+- rigid-box.png
+- pr-kit.png
+- retail-packaging.png
+- corporate-kit.png
+- CNAME
 
-IMPORTANT GITHUB UPLOAD STEPS:
-1. Extract this ZIP on your computer.
-2. In your GitHub repository, replace the existing index.html, capabilities.html, and contact.html with the files from this ZIP.
-3. Upload the PNG image files too if they are not already in the repository root.
-4. Commit the changes.
-5. Wait about 1–3 minutes for GitHub Pages to rebuild, then press Ctrl+F5 on the website.
+Verified business details used on this site:
+Fastkit Packaging
+1335 NW 98th Ct, Unit 11 & 12, Miami, FL 33172
+645-205-1264
+info@fastkitpckg.com
+www.fastkitpckg.com
 
-Do NOT upload only the ZIP file to GitHub Pages. The HTML files must be in the repository root.
+Important:
+The site intentionally removes prior claims about founding year, leadership, facility size,
+in-house manufacturing, and any connection to fastkit.com / fastkitpack.com.
+It clearly states that fastkitpckg.com is an independent business and is not affiliated
+with similarly named Fastkit businesses or websites.
 
-The phone and email are visible in the footer on every page, in the homepage/capabilities CTA area, and prominently on the Contact page.
+The contact form does not submit data to a server. It prepares an email in the visitor's
+local email application, so the website itself does not collect or store form data.

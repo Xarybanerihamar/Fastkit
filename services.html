@@ -1,0 +1,106 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Packaging project information and services from Fastkit Packaging in Miami, Florida."><meta name="theme-color" content="#10242e"><link rel="canonical" href="https://fastkitpckg.com/services.html"><title>Services | Fastkit Packaging</title><style>
+:root{
+  --ink:#172229;
+  --navy:#10242e;
+  --navy2:#183743;
+  --cream:#f5f2eb;
+  --paper:#fffdfa;
+  --mist:#e8ece8;
+  --sage:#9caf9e;
+  --rust:#c9794f;
+  --muted:#667278;
+  --line:rgba(23,34,41,.14);
+  --white:#fff;
+  --shadow:0 28px 70px rgba(16,36,46,.14);
+  --radius:26px;
+  --serif:Georgia,'Times New Roman',serif;
+  --sans:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+button,input,textarea,select{font:inherit}
+.container{width:min(1180px,calc(100% - 48px));margin:0 auto}
+.site-header{position:sticky;top:0;z-index:50;background:rgba(245,242,235,.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.navbar{display:flex;align-items:center;justify-content:space-between;min-height:78px;gap:30px}
+.wordmark{display:flex;flex-direction:column;line-height:1}
+.wordmark strong{font-size:18px;letter-spacing:.18em;font-weight:800}
+.wordmark span{font-size:9px;letter-spacing:.36em;color:var(--rust);font-weight:800;margin-top:7px}
+.nav{display:flex;align-items:center;gap:28px;font-size:14px}
+.nav a{color:#4d5a60}.nav a:hover,.nav a.active{color:var(--ink)}
+.nav-cta{padding:12px 17px;border:1px solid var(--ink);color:var(--ink)!important;font-weight:700}
+.menu-btn{display:none;border:0;background:transparent;font-size:25px;color:var(--ink)}
+.eyebrow{text-transform:uppercase;letter-spacing:.18em;font-size:11px;font-weight:800;color:var(--rust);margin:0 0 16px}
+.hero{padding:78px 0 74px;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.02fr .98fr;gap:64px;align-items:center}
+.hero h1,.page-hero h1{font-family:var(--serif);font-weight:400;letter-spacing:-.045em;line-height:.96;margin:0}
+.hero h1{font-size:clamp(55px,6.5vw,92px);max-width:760px}
+.hero h1 em{font-weight:400;color:var(--rust)}
+.hero-copy>p:not(.eyebrow){font-size:18px;line-height:1.7;color:var(--muted);max-width:650px;margin:27px 0 31px}
+.actions{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 22px;background:var(--navy);color:white;font-size:12px;text-transform:uppercase;letter-spacing:.12em;font-weight:800;border:1px solid var(--navy)}
+.btn:hover{background:var(--navy2)}
+.btn.secondary{background:transparent;color:var(--ink);border-color:var(--line)}
+.hero-media{position:relative}
+.hero-media:before{content:'';position:absolute;left:-26px;top:28px;width:38%;height:76%;background:var(--sage);opacity:.33;z-index:-1;border-radius:26px}
+.hero-media img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:30px;box-shadow:var(--shadow)}
+.hero-note{position:absolute;left:-30px;bottom:28px;background:var(--paper);padding:17px 20px;box-shadow:0 18px 45px rgba(16,36,46,.14);border-left:4px solid var(--rust);max-width:260px}
+.hero-note strong{display:block;font-family:var(--serif);font-size:19px;margin-bottom:4px}.hero-note span{font-size:12px;line-height:1.55;color:var(--muted)}
+.trust-strip{background:var(--navy);color:#e8eeee}
+.trust-grid{display:grid;grid-template-columns:repeat(3,1fr)}
+.trust-item{padding:27px 28px;border-right:1px solid rgba(255,255,255,.13)}.trust-item:last-child{border-right:0}
+.trust-item strong{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.14em;color:#fff;margin-bottom:8px}.trust-item span{font-size:13px;line-height:1.55;color:#bdc8cc}
+.section{padding:100px 0}
+.section.alt{background:var(--paper)}
+.section-head{display:grid;grid-template-columns:.8fr 1.2fr;gap:70px;margin-bottom:52px;align-items:end}
+.section-head h2,.split-copy h2,.contact-copy h2{font-family:var(--serif);font-size:clamp(42px,5vw,68px);line-height:1.02;font-weight:400;letter-spacing:-.035em;margin:0}
+.section-head p:last-child{font-size:16px;line-height:1.75;color:var(--muted);margin:0;max-width:600px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:var(--paper);border:1px solid var(--line);padding:30px;min-height:270px;display:flex;flex-direction:column;justify-content:space-between;transition:.25s ease}
+.card:hover{transform:translateY(-5px);box-shadow:0 20px 45px rgba(16,36,46,.08)}
+.card .num{font-size:11px;letter-spacing:.12em;color:var(--rust);font-weight:800}.card h3{font-family:var(--serif);font-size:29px;font-weight:400;margin:55px 0 12px}.card p{font-size:14px;line-height:1.7;color:var(--muted);margin:0}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.split-media{display:grid;grid-template-columns:1fr 1fr;gap:14px}.split-media img{width:100%;height:260px;object-fit:cover;border-radius:20px}.split-media img:first-child{grid-column:1/-1;height:320px}
+.split-copy p{font-size:16px;line-height:1.8;color:var(--muted)}
+.fact-list{margin-top:28px;border-top:1px solid var(--line)}
+.fact{display:grid;grid-template-columns:140px 1fr;gap:20px;padding:18px 0;border-bottom:1px solid var(--line);font-size:13px}.fact strong{color:var(--ink)}.fact span{color:var(--muted)}
+.notice{margin-top:30px;background:#eef2ef;border:1px solid #d6ded8;padding:21px 22px;font-size:13px;line-height:1.65;color:#435157}
+.cta-band{background:var(--rust);color:white;padding:70px 0}
+.cta-inner{display:flex;justify-content:space-between;align-items:center;gap:40px}.cta-inner h2{font-family:var(--serif);font-size:clamp(38px,5vw,65px);font-weight:400;line-height:1;margin:0;max-width:780px}.cta-inner .btn{background:white;color:var(--ink);border-color:white;flex:0 0 auto}
+.footer{background:#0d1d25;color:#c9d2d6;padding:56px 0 26px}.footer-grid{display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:55px}.footer h4{color:white;font-size:11px;text-transform:uppercase;letter-spacing:.16em;margin:0 0 15px}.footer p,.footer a{font-size:13px;line-height:1.8;color:#aebbc0}.footer a:hover{color:white}.footer .wordmark strong{color:white}.footer .wordmark span{color:#e59a70}.footer-bottom{border-top:1px solid rgba(255,255,255,.13);margin-top:40px;padding-top:20px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:11px;line-height:1.6;color:#809096}
+.page-hero{background:var(--navy);color:white;padding:86px 0 78px}.page-hero-grid{display:grid;grid-template-columns:1fr .82fr;gap:70px;align-items:end}.page-hero h1{font-size:clamp(52px,6vw,82px)}.page-hero p{font-size:16px;line-height:1.75;color:#bfcbcf;max-width:570px;margin:25px 0 0}.page-hero .eyebrow{color:#e69a72}
+.service-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}.service-card{background:var(--paper);border:1px solid var(--line);overflow:hidden}.service-card img{width:100%;height:310px;object-fit:cover}.service-card .copy{padding:29px 31px 33px}.service-card h3{font-family:var(--serif);font-size:31px;font-weight:400;margin:0 0 10px}.service-card p{font-size:14px;line-height:1.7;color:var(--muted);margin:0}
+.process{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line)}.step{padding:32px 27px;border-right:1px solid var(--line)}.step:last-child{border-right:0}.step span{font-size:11px;color:var(--rust);font-weight:800;letter-spacing:.1em}.step h3{font-family:var(--serif);font-size:25px;font-weight:400;margin:50px 0 10px}.step p{font-size:13px;line-height:1.65;color:var(--muted);margin:0}
+.contact-section{padding:88px 0}.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:70px;align-items:start}.contact-copy{position:sticky;top:110px}.contact-copy p{font-size:15px;line-height:1.8;color:var(--muted)}.contact-details{margin-top:30px;border-top:1px solid var(--line)}.contact-row{display:grid;grid-template-columns:110px 1fr;gap:18px;padding:18px 0;border-bottom:1px solid var(--line);font-size:13px}.contact-row strong{color:var(--ink)}.contact-row a,.contact-row span{color:var(--muted)}
+.form-panel{background:var(--paper);border:1px solid var(--line);padding:38px}.form-panel h2{font-family:var(--serif);font-size:38px;font-weight:400;margin:0 0 8px}.form-panel>p{font-size:13px;color:var(--muted);line-height:1.6;margin:0 0 28px}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px 18px}.form-grid label{display:flex;flex-direction:column;gap:8px}.form-grid label.full{grid-column:1/-1}.form-grid span{font-size:10px;text-transform:uppercase;letter-spacing:.12em;font-weight:800;color:#556168}.form-grid input,.form-grid textarea,.form-grid select{width:100%;background:#fbfaf6;border:1px solid #d8dbd6;padding:13px 14px;outline:none;color:var(--ink)}.form-grid input:focus,.form-grid textarea:focus,.form-grid select:focus{border-color:var(--navy)}.form-grid textarea{min-height:145px;resize:vertical}.form-actions{display:flex;align-items:center;gap:16px;margin-top:24px;flex-wrap:wrap}.form-note{font-size:11px;line-height:1.55;color:#788389;max-width:430px}.form-status{display:none;margin-top:18px;padding:15px 17px;background:#eaf3eb;border:1px solid #bdd0c0;font-size:13px;line-height:1.6;color:#37503b}.form-status.show{display:block}
+.safety-box{margin-top:25px;border:1px solid #d8dbd6;background:#f8f7f2;padding:19px 20px}.safety-box strong{display:block;font-size:12px;margin-bottom:6px}.safety-box p{font-size:12px;line-height:1.65;color:var(--muted);margin:0}
+@media(max-width:900px){
+ .container{width:min(100% - 32px,1180px)}.menu-btn{display:block}.nav{display:none;position:absolute;top:78px;left:16px;right:16px;background:var(--cream);border:1px solid var(--line);padding:20px;flex-direction:column;align-items:stretch}.nav.open{display:flex}.nav-cta{text-align:center}.hero-grid,.page-hero-grid,.section-head,.split,.contact-grid{grid-template-columns:1fr}.hero{padding-top:55px}.hero-media{margin-top:10px}.hero-note{left:18px}.section-head{gap:22px}.cards{grid-template-columns:1fr 1fr}.process{grid-template-columns:1fr 1fr}.step:nth-child(2){border-right:0}.step:nth-child(-n+2){border-bottom:1px solid var(--line)}.footer-grid{grid-template-columns:1fr 1fr}.footer-grid>div:first-child{grid-column:1/-1}.contact-copy{position:static}.service-card img{height:270px}
+}
+@media(max-width:620px){
+ .container{width:min(100% - 26px,1180px)}.hero h1{font-size:50px}.hero-copy>p:not(.eyebrow){font-size:16px}.hero-note{position:static;margin-top:14px;max-width:none}.trust-grid,.cards,.service-grid,.process,.form-grid,.footer-grid{grid-template-columns:1fr}.trust-item{border-right:0;border-bottom:1px solid rgba(255,255,255,.13)}.trust-item:last-child{border-bottom:0}.section{padding:76px 0}.split-media img,.split-media img:first-child{height:230px}.split-media{grid-template-columns:1fr}.fact{grid-template-columns:1fr;gap:6px}.cta-inner{flex-direction:column;align-items:flex-start}.step{border-right:0;border-bottom:1px solid var(--line)!important}.step:last-child{border-bottom:0!important}.footer-grid>div:first-child{grid-column:auto}.form-panel{padding:26px 20px}.form-grid label.full{grid-column:auto}.page-hero{padding:67px 0}.page-hero h1{font-size:50px}.contact-section{padding:65px 0}
+}
+</style></head><body><header class="site-header"><div class="container navbar">
+<a class="wordmark" href="index.html"><strong>FASTKIT</strong><span>PACKAGING</span></a>
+<button class="menu-btn" aria-label="Open navigation" data-menu>☰</button>
+<nav class="nav" data-nav><a class="" href="index.html">Home</a><a class="active" href="services.html">Services</a><a class="" href="contact.html">Contact</a><a class="nav-cta" href="contact.html">Request Information</a></nav>
+</div></header><main>
+<section class="page-hero"><div class="container page-hero-grid"><div><p class="eyebrow">Services</p><h1>Start with the project, then build the right solution.</h1></div><p>We keep our service information intentionally straightforward. Send the packaging requirements you already have, and we will review what can be supported and what additional details are needed.</p></div></section>
+<section class="section"><div class="container"><div class="service-grid">
+ <article class="service-card"><img src="rigid-box.png" alt="Presentation packaging example"><div class="copy"><h3>Presentation Packaging</h3><p>For projects where appearance, presentation and organized product placement are important. Share your requirements and we can discuss suitable options.</p></div></article>
+ <article class="service-card"><img src="pr-kit.png" alt="Product kit packaging example"><div class="copy"><h3>Product &amp; Promotional Kits</h3><p>Packaging conversations for product launches, promotional programs, business kits and other multi-item presentations.</p></div></article>
+ <article class="service-card"><img src="retail-packaging.png" alt="Retail packaging example"><div class="copy"><h3>Retail &amp; Product Packaging</h3><p>For businesses evaluating packaging around products, samples or retail presentation. Send dimensions, quantities and timing when available.</p></div></article>
+ <article class="service-card"><img src="corporate-kit.png" alt="Corporate kit packaging example"><div class="copy"><h3>Business Packaging Projects</h3><p>We can review packaging requests for internal programs, customer presentation, business materials and related use cases.</p></div></article>
+</div></div></section>
+<section class="section alt"><div class="container"><div class="section-head"><div><p class="eyebrow">How to start</p><h2>Four steps to a clearer request.</h2></div><p>You do not need an account or login. Send normal business project information only. We never ask visitors to submit passwords, banking credentials or payment-card information through this website.</p></div><div class="process"><div class="step"><span>01</span><h3>Describe</h3><p>Tell us what the packaging is for and what you need it to accomplish.</p></div><div class="step"><span>02</span><h3>Specify</h3><p>Include quantities, dimensions, timing and any known material or presentation requirements.</p></div><div class="step"><span>03</span><h3>Review</h3><p>Our team reviews the request and identifies the next information needed.</p></div><div class="step"><span>04</span><h3>Continue</h3><p>We continue the discussion directly by phone or email using the contact details published here.</p></div></div></div></section>
+<section class="cta-band"><div class="container cta-inner"><h2>Ready to send the details?</h2><a class="btn" href="contact.html">Contact us</a></div></section>
+</main><footer class="footer"><div class="container">
+<div class="footer-grid">
+  <div><a class="wordmark" href="index.html"><strong>FASTKIT</strong><span>PACKAGING</span></a><p style="max-width:360px;margin-top:18px">Independent Miami packaging business serving customers through fastkitpckg.com.</p></div>
+  <div><h4>Contact</h4><p><a href="tel:+16452051264">645-205-1264</a><br><a href="mailto:info@fastkitpckg.com">info@fastkitpckg.com</a><br><a href="https://www.fastkitpckg.com">www.fastkitpckg.com</a></p></div>
+  <div><h4>Location</h4><p>1335 NW 98th Ct<br>Unit 11 &amp; 12<br>Miami, FL 33172</p></div>
+</div>
+<div class="footer-bottom"><span>© 2026 Fastkit Packaging. All rights reserved.</span><span>Fastkit Packaging at fastkitpckg.com is an independent business and is not affiliated with fastkit.com, fastkitpack.com, or similarly named businesses.</span></div>
+</div></footer><script>const b=document.querySelector('[data-menu]'),n=document.querySelector('[data-nav]');if(b&&n){b.addEventListener('click',()=>n.classList.toggle('open'));}</script></body></html>
